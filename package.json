@@ -1,0 +1,34 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "gulp SassCompile",
+    "watch": "gulp watchFiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senryo0909/reCreative.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senryo0909/reCreative/issues"
+  },
+  "homepage": "https://github.com/senryo0909/reCreative#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass-parent": "^2.0.2",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "resolutions": {
+    "sass-graph": "git+https://github.com/macropygia/sass-graph.git"
+  }
+}

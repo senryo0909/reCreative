@@ -1,0 +1,26 @@
+@use '../variable' as vars;
+.header {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: vars.$header_background;
+    position: relative;
+
+    & > .header-contents {
+        width: 160px;
+        height: 60px;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+            top: 20%;
+            right: 5%;
+        
+        & > .header-content {
+            background-color: vars.$header_contents;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

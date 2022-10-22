@@ -1,0 +1,7 @@
+@use '../variable' as vars;
+
+.left-side{
+    width: 150px;
+    height: 250px;
+    background-color: vars.$left_background;
+}
